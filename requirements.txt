@@ -1,0 +1,8 @@
+pandas>=2.0
+torch>=2.1
+huggingface_hub>=0.24
+# The imports used below match RadReportX's published inference.py.
+torchtune==0.3.1
+# Direct Gemini API notebook.
+google-genai>=1.0
+python-dotenv>=1.0

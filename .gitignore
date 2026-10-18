@@ -1,0 +1,41 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Competition datasets (download locally; do not commit)
+**/train.csv
+**/test.csv
+/data/
+
+# Generated submissions and intermediate outputs
+**/final_submission*.csv
+**/gemini_failures.csv
+/medGemma/processed_data/
+**/processed_data/
+
+# Model checkpoints and training artifacts
+checkpoints/
+**/checkpoints/
+models/
+**/models/
+adapters/
+**/adapters/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments, logs, and operating-system files
+.venv/
+venv/
+env/
+*.log
+.DS_Store
